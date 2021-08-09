@@ -1,0 +1,22 @@
+﻿@page
+@model WebApplication5.Pages.SomeView.SomeView
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    @foreach (var str in Model.Strings)
+    {
+        <div>@str</div>
+    }
+</div>
+</body>
+</html>
